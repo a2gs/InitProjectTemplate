@@ -4,7 +4,7 @@ SRC_PATH = ./src
 INC_PATH = -I ./inc -I./libSample/inc
 BIN_PATH = ./bin
 
-CFLAGS = -g -Wall -std=c11 -D_XOPEN_SOURCE=700
+CFLAGS = -g -Wall -std=c11 -D_XOPEN_SOURCE=700 -D_POSIX_C_SOURCE=200809L -D_POSIX_SOURCE=1 -D_DEFAULT_SOURCE=1 -D_GNU_SOURCE=1
 
 RM = rm -f
 CPPCHECK = cppcheck
