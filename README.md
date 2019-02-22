@@ -1,1 +1,1 @@
-Just source initial templates.
+Just initial template sources.
