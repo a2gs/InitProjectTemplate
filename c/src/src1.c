@@ -3,7 +3,7 @@
  *
  * <Project Name>
  *
- * <Licence>
+ * <License>
  *
  */
 
